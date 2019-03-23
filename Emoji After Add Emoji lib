@@ -4,3 +4,9 @@ print(emoji.emojize('Python is :thumbsup:', use_aliases=True))
 print(emoji.emojize('Python is :car:', use_aliases=True))
 print(emoji.emojize('Python is :cookie:', use_aliases=True))
 print(emoji.demojize('Python is 👍'))
+
+#Another Method Write The CLDR short name:
+
+Code OF Emoji
+print("\U0001f600")
+#This Link Too See The CLDR short names https://unicode.org/emoji/charts/full-emoji-list.html
